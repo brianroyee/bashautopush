@@ -36,5 +36,5 @@ EOF
 # Git operations
 cd "$repo_directory" || exit
 git add hello.html
-git commit -m "Daily commit: $(date +'%Y-%m-%d')"
+git commit -m "Daily commit info: $(date +'%Y-%m-%d')"
 git push "$git_remote" "$git_branch"
